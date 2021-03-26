@@ -1,7 +1,7 @@
 # Create a Jira ticket with an API
 
 ## Objective 
-Send a payload to an api that will create an issue here: `https://lowranceworks.atlassian.net/jira/software/projects/FP/boards/1`
+Send a payload to an api that will create an issue [here](https://lowranceworks.atlassian.net/jira/software/projects/FP/boards/1)
 
 ## Documentation
 [Create Jira issue via rest api - python](https://community.atlassian.com/t5/Jira-questions/Create-Jira-issue-via-rest-api-python/qaq-p/455623)
