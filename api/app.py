@@ -1,4 +1,7 @@
-from chalice import Chalice
+from chalice import Chalice, BadRequestError, UnauthorizedError
+from urllib.parse import urlparse, parse_qs
+
+
 
 app = Chalice(app_name='api')
 
