@@ -24,8 +24,11 @@ The documentation may NOT apply to both Jira Server and Jira Cloud
 ## Getting started
 
 visit the following links inside your browser: \
-`https://lowranceworks.atlassian.net/rest/api/2/issue/createmeta` - to see stuff \
-`https://lowranceworks.atlassian.net/rest/api/2/issue/createmeta?projectKeys=FP&expand=projects.issuetypes.fields` to see stuff under your project (FP = project key)  
+`https://lowranceworks.atlassian.net/rest/api/2/issue/createmeta` \
+- to see stuff
+
+`https://lowranceworks.atlassian.net/rest/api/2/issue/createmeta?projectKeys=FP&expand=projects.issuetypes.fields` 
+- to see stuff under your project (FP = project key)  
 
 
 the links above used the api version 2, let's use the newest version (3) \
