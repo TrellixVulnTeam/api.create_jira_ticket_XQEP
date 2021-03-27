@@ -52,8 +52,8 @@ the links above used the api version 2, let's use the newest version (3) \
    }
 }
 ```
-
-POST **https://lowranceworks.atlassian.net/rest/api/3/issue/**
+**create an issue** 
+POST https://lowranceworks.atlassian.net/rest/api/3/issue/
 ```
 {
     "fields": {
@@ -82,6 +82,19 @@ POST **https://lowranceworks.atlassian.net/rest/api/3/issue/**
     }
 }
 ```
+
+results in error:
+```
+{
+    "errorMessages": [],
+    "errors": {
+        "summary": "Field 'summary' cannot be set. It is not on the appropriate screen, or unknown.",
+        "description": "Field 'description' cannot be set. It is not on the appropriate screen, or unknown."
+    }
+}
+```
+
+
 
 Learning how to talk to the api
 
